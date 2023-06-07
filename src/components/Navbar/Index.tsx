@@ -3,11 +3,12 @@ import Image from 'next/image';
 import Styles from './Navbar.module.css';
 
 const menuLinks = [
-  { label: 'Option 1', path: '/option1' },
-  { label: 'Option 2', path: '/option2' },
-  { label: 'Option 3', path: '/option3' },
-  { label: 'Option 4', path: '/option4' },
-  { label: 'Option 5', path: '/option5' },
+  { label: 'Development', path: '#dev' },
+  { label: 'Analytics', path: '#analytics' },
+  { label: 'SEO', path: '#seo' },
+  { label: 'Portfolio', path: '#portfolio' },
+  { label: 'About', path: '#about' },
+  { label: 'Contact', path: '#contact' },
 ];
 
 const Navbar: React.FC = () => {
@@ -15,17 +16,14 @@ const Navbar: React.FC = () => {
     <nav className={Styles.navbar}>
       <div className={Styles.container}>
 
-        <Link href="/">
           <Image
             className={Styles.logo}
             src="/eversondotdev_logo.svg"
             alt="Everson.dev"
-            width={180}
-            height={50}
+            width={288}
+            height={40}
             priority
           />
-        </Link>
-
 
         <div className={Styles.menuWeb}>
           <ul>

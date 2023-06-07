@@ -21,7 +21,7 @@ export default function Logos() {
                   <Image
                     src={item.path}
                     alt={item.label}
-                    width={130}
+                    width={100}
                     height={40}
                     priority
                   />

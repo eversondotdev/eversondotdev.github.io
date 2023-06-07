@@ -1,10 +1,40 @@
 .header{
     padding-top: 10vh;
-    background: #DDEFFF;
-    background-image: url('/eversondotdev_hero.svg');
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 80vh;
     text-align: center;
+    background: #DDEFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 1100px;
+}
+
+.el{
+    display: block;
+    font-size: 2.4rem;
+    font-weight: bold;
+    height: 2.4rem;
+    margin-bottom: 40px;
+}
+
+.cta{
+    padding: 20px;
+    border: 0px;
+    background: #0092FF;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    transition: 200ms ease-in-out;
+}
+
+.cta:hover{
+    background: #000;
+}
+
+.imgFeature{
+    height: 60vh;
+    background: url('/eversondotdev_hero.svg') no-repeat;
+    background-position: bottom center;
+    background-size: contain;
 }

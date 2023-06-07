@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import { Poppins } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-import Navbar from '@/components/Navbar/Index';
+import Navbar from '@/components/navbar/Index';
 import Hero from '@/components/hero/Index';
+import Main from '@/components/main/Index';
+import ContactForm from '@/components/ContactForm/Index';
+
 
 const popins = Poppins({
   weight: '400',
@@ -20,9 +22,8 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
-      <main className={`${styles.main} ${popins.className}`}>
-        Main
-      </main>
+      <Main />
+      <ContactForm />
     </>
   )
 }

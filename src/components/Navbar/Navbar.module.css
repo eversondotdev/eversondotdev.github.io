@@ -5,10 +5,11 @@
   left: 0;
   width: 100%;
   background: #fff;
-  border-bottom: 1px solid #F1F1F1;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px 0;
+  box-shadow: 0px 0px 2px #F1F1F1;
 }
 
 .container{
@@ -25,10 +26,16 @@
   display: flex;
 }
 
+.menuWeb a{
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
 .menuWeb ul li {
-  margin-right: 10px; /* Adjust the spacing between options */
+  margin-right: 20px;
 }
 
 .menuWeb ul li:last-child {
   margin-right: 0;
 }
+
