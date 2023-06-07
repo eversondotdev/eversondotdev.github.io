@@ -1,0 +1,10 @@
+.header{
+    padding-top: 10vh;
+    background: #DDEFFF;
+    background-image: url('/eversondotdev_hero.svg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 80vh;
+    text-align: center;
+}
