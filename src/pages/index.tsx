@@ -1,9 +1,4 @@
 import Head from 'next/head'
-import Hero from '@/components/hero/Index';
-import Main from '@/components/main/Index';
-import Portoflio from '@/components/portfolio/Index';
-import About from '@/components/about/Index';
-import ContactForm from '@/components/contactForm/Index';
 
 export default function Home() {
   return (
@@ -14,11 +9,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero />
-      <Main />
-      <Portoflio />
-      <About />
-      <ContactForm/>
+      Test
     </>
   )
 }
