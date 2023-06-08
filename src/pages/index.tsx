@@ -1,9 +1,11 @@
 import Head from 'next/head'
 import { Poppins } from 'next/font/google'
-import Navbar from '@/components/navbar/Index';
 import Hero from '@/components/hero/Index';
 import Main from '@/components/main/Index';
-import ContactForm from '@/components/ContactForm/Index';
+import ContactForm from '@/components/contactForm/Index';
+import Navbar from '@/components/navbar/Index';
+import Portoflio from '@/components/portfolio/Index';
+import About from '@/components/about/Index';
 
 
 const popins = Poppins({
@@ -23,6 +25,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Main />
+      <Portoflio />
+      <About />
       <ContactForm />
     </>
   )
