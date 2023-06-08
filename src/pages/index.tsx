@@ -1,17 +1,10 @@
 import Head from 'next/head'
-import { Poppins } from 'next/font/google'
 import Hero from '@/components/hero/Index';
 import Main from '@/components/main/Index';
-import ContactForm from '@/components/contactForm/Index';
 import Navbar from '@/components/navbar/Index';
 import Portoflio from '@/components/portfolio/Index';
 import About from '@/components/about/Index';
-
-
-const popins = Poppins({
-  weight: '400',
-  subsets: ['latin'],
-});
+import ContactForm from '@/components/contactForm/Index';
 
 export default function Home() {
   return (
@@ -27,7 +20,7 @@ export default function Home() {
       <Main />
       <Portoflio />
       <About />
-      <ContactForm />
+      <ContactForm/>
     </>
   )
 }
